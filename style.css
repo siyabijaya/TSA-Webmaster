@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(186, 236, 186);
+    background-image: url(pexels-emily-le-2148057518-29900618.jpg);
+    background-position: center;
+}
+.container{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header{
+    background-color: rgb(117, 171, 149);
+    height: 118px;
+    text-align: center;
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        
+        }
+    
+}
+  .navbar a{
+    color: white;
+    font-size: 20px;
+  }
+nav{
+    background-color: rgb(2, 96, 47);
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+main{
+    /* background-color: rgb(72, 119, 95); */
+    height: 400px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 100px;
+}
+footer{
+    background-color: rgb(30, 77, 52);
+    height: 100px;
+    
+    
+}
+h1{
+    color: white;
+    font-size: 84px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+p{
+    color: white;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
