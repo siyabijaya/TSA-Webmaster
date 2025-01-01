@@ -1,2 +1,21 @@
-hi
-hi 2
+#Run the command to login to github
+git auth login 
+
+
+#Check the status of local changes
+git status
+
+
+#Git pull to pull the latest changes from source GitHub repository
+git pull
+
+
+#Make changes locally and add changes to local repository
+git add <filename>
+
+
+#Commit the changes
+#git commit -m <Add some comments about what you changed>
+
+#push the changes back to GitHub Server
+git push
