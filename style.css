@@ -21,7 +21,7 @@ header{
         }
     
 }
-  .navbar a{
+    a{
     color: white;
     font-size: 20px;
   }
@@ -57,7 +57,7 @@ h1{
 }
 p{
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     font-family:'Times New Roman', Times, serif;
     
 }
