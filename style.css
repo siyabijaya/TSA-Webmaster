@@ -21,10 +21,10 @@ header{
         }
     
 }
-    a{
+  a{
     color: white;
     font-size: 20px;
-    display: none;
+    text-decoration: none;
   }
 nav{
     background-color: rgb(2, 96, 47);
