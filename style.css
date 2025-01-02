@@ -50,16 +50,78 @@ footer{
     
     
 }
-h1{
-    color: white;
-    font-size: 84px;
+.story{
+    color: black;
+    font-size: 60px;
     font-family:'Times New Roman', Times, serif;
-    
+    text-align: center;
 }
+.my-block {
+    background-color: beige;
+    height: 120px;
+    width: 1024px;  
+    background-position: center;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
 p{
     color: white;
     font-size: 24px;
     font-family:'Times New Roman', Times, serif;
     
 }
+.box{
+    
+    background-color:white;
+    display: flex;
 
+}
+
+.square1{
+
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+    background-position: center;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.square1 > div {
+    background-color: blue;
+    margin: 10px;
+    padding: 10px;
+    
+}
+ td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: beige;
+    justify-content: space-between;
+    height: 100px;
+    
+    
+  }
+
+  .pics{
+    background-color: rgb(117, 171, 149);;
+    height: 200px;
+    width: 1024px;
+  }
+  .story1 td{
+    
+    height: 200px; 
+    text-align: center;
+    vertical-align: middle;
+  }
+h1{
+    color: black;
+    font-size: 84px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    
+} 
