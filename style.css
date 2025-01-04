@@ -113,12 +113,6 @@ p{
     
     
   }
-
-  .pics{
-    background-color: rgb(117, 171, 149);;
-    height: 200px;
-    width: 1024px;
-  }
   .story1 td{
     
     height: 200px; 
@@ -144,3 +138,54 @@ p{
     align-items: center;
     
 }
+
+.pics {
+    background-color: rgb(117, 171, 149);
+    height: 200px;
+    width: 100%;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: flex-start; /* Center the circles horizontally */
+    align-items: center; /* Center the circles vertically */
+     /* Add space between the circles */
+}
+.circle-container{
+    display: flex;
+    align-items: center;
+    
+}
+.circle {
+    width: 165px; /* Circle width */
+    height: 165px; /* Circle height */
+    border-radius: 50%; /* Make it a circle */
+    background-color: blueviolet;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.circle:nth-child(1){
+    background-image: url("pexels-quang-nguyen-vinh-222549-6874914.jpg");
+    
+}
+.circle:nth-child(2){
+    background-image: url("pexels-quang-nguyen-vinh-222549-6874914.jpg");
+    
+}
+.circle:nth-child(3){
+    background-image: url("pexels-quang-nguyen-vinh-222549-6874914.jpg");
+    
+}
+.description {
+        
+        color: white;
+        padding: 5px;
+        font-size: 14px;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 165px;
+        
+}
+
+
+
