@@ -406,6 +406,22 @@ p{
     text-align: center;
     
 }
+.home-image{
+    background-image: url(BombayBliss.jpg);
+    
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
 
 .reviews{
     background-color: beige;
