@@ -196,17 +196,23 @@ p{
 }
 
  */
+
+
+
  body {
-    background-color: rgb(186, 236, 186);  /* You can keep the background color or set it to transparent */
-    margin: 0;  /* Remove default body margin */
-    height: 100vh;  /* Ensure the body takes up the full height of the viewport */
+    background-color: rgb(186, 236, 186);
+    margin: 0;
+    height: 100vh;
+    background-image: url(pexels-emily-le-2148057518-29900618.jpg);
+    background-position: center;
 }
 
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 100%;  /* Ensure the container spans the entire width */
-    height: 100vh;  /* Make the container span the entire height of the viewport */
+    width: 100%;
+    height: 100%; 
+    
 }
 
 header {
@@ -242,10 +248,11 @@ a{
   }
 
 main {
-    height: 100%;  /* Make sure main content takes up the remaining space */
+    height: 100%;
     
     background-image: url(pexels-emily-le-2148057518-29900618.jpg);
     background-position: center;
+    text-align: center;
 }
 footer {
     background-color: rgb(30, 77, 52);
@@ -275,7 +282,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    align-items: center; /* Center the circles vertically */
+    align-items: center;
 }
 
 .circle-container {
@@ -352,7 +359,7 @@ td {
     align-items: center;
 }
 .sustain{
-   background-image: url(pexels-taryn-elliott-4374580.jpg);
+   background-image: url("pexels-glaucio-guerra-442201-1132600.jpg");
    background-repeat: no-repeat;
    background-attachment: fixed;
     background-size: cover;
@@ -391,69 +398,9 @@ td {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 30px;
 }
-/* For tablets and larger phones */
-@media (max-width: 768px) {
-    .container {
-        width: 100%; /* Full width */
-        padding: 0 15px; /* Add padding to prevent content from touching edges */
-    }
-
-    nav {
-        flex-direction: column; /* Stack navigation links vertically */
-        align-items: center;
-        padding: 10px;
-    }
-
-    nav a {
-        margin-bottom: 10px; /* Space between links */
-        font-size: 18px; /* Slightly smaller font */
-    }
-
-    header h1 {
-        font-size: 48px; /* Smaller header text */
-    }
-
-    .sustain {
-        height: auto; /* Allow height to adjust based on content */
-        background-attachment: scroll; /* Prevent fixed background issues on mobile */
-    }
-
-    .sustainability {
-        width: 90%; /* Reduce width to fit smaller screens */
-    }
-
-    .parent {
-        flex-direction: column; /* Stack child elements vertically */
-        margin: 10px 0;
-    }
-
-    .i-base {
-        width: 90%; /* Reduce width to fit within smaller screens */
-        margin: 20px auto; /* Center horizontally */
-    }
+p{
+    color: white;
+    font-size: medium;
 }
 
-/* For small phones */
-@media (max-width: 480px) {
-    h1 {
-        font-size: 36px;
-    }
 
-    p, h3 {
-        font-size: 16px; /* Reduce font size for readability */
-    }
-
-    .circle {
-        width: 100px;
-        height: 100px; /* Smaller circles */
-    }
-
-    .circle-container {
-        flex-wrap: wrap; /* Allow circles to wrap to a new line */
-        justify-content: center;
-    }
-
-    nav a {
-        font-size: 16px;
-    }
-}
