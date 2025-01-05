@@ -243,13 +243,14 @@ a{
 
 main {
     height: 100%;  /* Make sure main content takes up the remaining space */
-    padding: 40px 240px;  /* Adjust padding as necessary */
+    
     background-image: url(pexels-emily-le-2148057518-29900618.jpg);
     background-position: center;
 }
 footer {
     background-color: rgb(30, 77, 52);
     height: 200px;
+    
 }
 
 .story {
@@ -349,4 +350,44 @@ td {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.sustain{
+   background-image: url(pexels-taryn-elliott-4374580.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+    justify-content: center;
+    display: flex;
+    
+}
+.sustainability{
+    height: 400px;
+    width: 650px;
+    display:flex;
+    align-items: center;
+    background-color: rgba(14, 117, 33, 0.686);
+    border-radius:25px;
+    color: white;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.i-base{
+    background-color: rgba(0, 0, 0, 0.652);
+    height: 250px;
+    width: 600px;
+    border-radius: 25px;
+    margin: 60px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px;
 }
