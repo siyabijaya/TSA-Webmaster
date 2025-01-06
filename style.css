@@ -433,3 +433,29 @@ p{
     background-color:rgb(95, 163, 114);
     height:300px;
 }
+
+.btnHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -450px;
+}
+
+.btn{
+ 
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    background: black;
+    width: 160px;
+    padding:20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: column;
+    margin: 60px;
+    padding: 30px;
+    position: relative;
+}
