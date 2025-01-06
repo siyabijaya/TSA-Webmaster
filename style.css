@@ -591,4 +591,17 @@ footer {
     margin: 0;
 }
 
+.links{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    padding: 20px;
+    display:block;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
 
+.links a {
+    display: block;
+    margin: 20px;
+}
