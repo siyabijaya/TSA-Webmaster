@@ -257,6 +257,7 @@ main {
     height: 100%;
     background-position: center;
     text-align: center;
+    background-color: antiquewhite;
 }
 
 
@@ -592,16 +593,17 @@ footer {
 }
 
 .links{
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    
+    
     padding: 20px;
     display:block;
-    text-decoration: underline;
     margin-bottom: 30px;
 }
 
 .links a {
     display: block;
     margin: 20px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
 }
