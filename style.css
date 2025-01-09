@@ -1,203 +1,3 @@
-/* body {
-    background-color: rgb(186, 236, 186);
-    background-image: url(pexels-emily-le-2148057518-29900618.jpg);
-    background-position: center;
-}
-.container{
-
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
-}
-
-header{
-    background-color: rgb(117, 171, 149);
-    height: 118px;
-    text-align: center;
-    img{
-        max-width: 100%;
-        max-height: 100%;
-        
-        }
-    
-}
-h1{
-    color: white;
-    font-size: 84px;
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-    
-}
-  a{
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-  }
-nav{
-    background-color: rgb(2, 96, 47);
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
-}
-main{
-    
-    height: 400px;
-    text-align: center;
-    padding-top: 40px;
-    padding-left: 240px;
-    padding-right: 240px;
-    padding-bottom: 100px;
-}
-footer{
-    background-color: rgb(30, 77, 52);
-    height: 200px;
-    
-    
-}
-.story{
-    color: black;
-    font-size: 60px;
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-}
-.my-block {
-    background-color: beige;
-    height: 120px;
-    width: 1024px;  
-    background-position: center;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-p{
-    color: white;
-    font-size: 24px;
-    font-family:'Times New Roman', Times, serif;
-    
-}
-.box{
-    
-    background-color:white;
-    display: flex;
-
-}
-
-.square1{
-
-    display: flex;
-    background-color: aquamarine;
-    justify-content: space-between;
-    background-position: center;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    
-}
-
-.square1 > div {
-    background-color: blue;
-    margin: 10px;
-    padding: 10px;
-    
-}
- td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    background-color: beige;
-    justify-content: space-between;
-    height: 100px;
-    
-    
-  }
-  .story1 td{
-    
-    height: 200px; 
-    text-align: center;
-    vertical-align: middle;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
- 
-.story1 div img{
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: cover;
-    border-radius: 5px;
-
-}
-.story div{
-    background-color: beige;
-    margin: 10px;
-    padding: 10px;
-    height:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.pics {
-    background-color: rgb(117, 171, 149);
-    height: 200px;
-    width: 100%;
-    display: flex; 
-    justify-content: flex-start;
-    align-items: center;
-    
-}
-.circle-container{
-    display: flex;
-    align-items: center;
-    
-}
-.circle {
-    width: 165px;
-    height: 165px;
-    border-radius: 50%;
-    background-color: blueviolet;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-.circle:nth-child(1){
-    background-image: url("pexels-quang-nguyen-vinh-222549-6874914.jpg");
-    
-}
-.circle:nth-child(2){
-    background-image: url("pexels-quang-nguyen-vinh-222549-6874914.jpg");
-    
-}
-.circle:nth-child(3){
-    background-image: url("pexels-quang-nguyen-vinh-222549-6874914.jpg");
-    
-}
-.description {
-        
-        color: white;
-        padding: 5px;
-        font-size: 14px;
-        text-align: center;
-        border-radius: 5px;
-        margin-top: 10px;
-        width: 165px;
-        
-}
-.farm{
-    background-color: blanchedalmond;
-    height: 500px;
-    width: 1024px;
-    font-size: 50px;
-    color:black;
-    text-align: center;
-}
-
- */
-
-
 
  body {
     background-color: rgb(186, 236, 186);
@@ -322,29 +122,44 @@ footer {
     font-size: 50px;
     color: black;
     text-align: center;
-}
-
+}   
 .pics {
     background-color: rgb(117, 171, 149);
-    height: 200px;
-    width: 100%;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
 }
 
 .circle-container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .circle {
-    width: 165px;
-    height: 165px;
+    width: 12vw;
+    height: 12vw;
+    max-width: 165px;
+    max-height: 165px;
+    min-width: 80px;
+    min-height: 80px;
     border-radius: 50%;
     background-color: blueviolet;
     background-position: center;
     background-size: cover;
+}
+
+.description {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 165px;
+    word-wrap: break-word;
 }
 
 .circle:nth-child(1) {
@@ -359,15 +174,8 @@ footer {
     background-image: url("pexels-quang-nguyen-vinh-222549-6874914.jpg");
 }
 
-.description {
-    color: white;
-    padding: 5px;
-    font-size: 14px;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 10px;
-    width: 165px;
-}
+
+
 
 table {
     width: 100%;
@@ -430,21 +238,24 @@ td {
 }
 .parent{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
 }
-.i-base{
+.i-base {
     background-color: rgba(0, 0, 0, 0.652);
-    height: 250px;
-    width: 600px;
+    height: auto;
+    width: 90%;
+    max-width: 600px;
     border-radius: 25px;
-    margin: 60px;
+    margin: 20px;
     text-align: center;
     color: white;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 30px;
+    box-sizing: border-box;
 }
 p{
     color: white;
@@ -460,7 +271,7 @@ p{
     background-image: url(homeImage.jpg);
     
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   /* background-attachment: fixed; */ 
     background-size: cover;
     background-position: center;
     height:100%;
@@ -636,4 +447,46 @@ footer {
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
+}
+.comida{
+    color: black;
+    font-size: 84px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 40px;
+}
+.quote{
+    color:black;
+    font-style:italic;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+/* Small Screen adaptivity things*/
+@media (max-width: 768px) {
+    .circle {
+        width: 20vw; 
+        height: 20vw;
+    }
+
+    .description {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .circle {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .description {
+        font-size: 0.7rem;
+    }
 }
