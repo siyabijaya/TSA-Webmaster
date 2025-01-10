@@ -367,6 +367,7 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     
+    
 
     
 }
@@ -471,6 +472,9 @@ footer {
 .comida-container{
     height: 700px;
     background-color:antiquewhite;
+    margin: 0;
+    padding: 0;
+    height: auto;
 
 }
 
@@ -500,4 +504,19 @@ footer {
     .description {
         font-size: 0.7rem;
     }
+}
+
+.menu{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+
+}
+
+.menu img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
 }
