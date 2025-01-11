@@ -120,12 +120,19 @@ footer {
 
 .farm {
     background-color: blanchedalmond;
-    height: 500px;
-    
+    height: 600px;
     font-size: 50px;
     color: black;
     text-align: center;
-}   
+}  
+
+.preperation{
+    background-color: rgb(155, 211, 189);
+    height: 600px;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
 .pics {
     background-color: rgb(117, 171, 149);
     display: flex;
@@ -143,7 +150,7 @@ footer {
     margin-right: 60px;
 }
 
-.circle {
+.circle1 {
     width: 12vw;
     height: 12vw;
     max-width: 165px;
@@ -154,8 +161,60 @@ footer {
     background-color: blueviolet;
     background-position: center;
     background-size: cover;
+    background-image: url("pexels-charlotte-may-5946623.jpg");
 }
-
+.circle2 {
+    width: 12vw;
+    height: 12vw;
+    max-width: 165px;
+    max-height: 165px;
+    min-width: 80px;
+    min-height: 80px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    background-position: center;
+    background-size: cover;
+    background-image: url("redcharlie-t-7KEq9M0b0-unsplash.jpg");
+}
+.circle3 {
+    width: 12vw;
+    height: 12vw;
+    max-width: 165px;
+    max-height: 165px;
+    min-width: 80px;
+    min-height: 80px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    background-position: center;
+    background-size: cover;
+    background-image: url("pexels-roman-odintsov-5337011.jpg");
+}
+.circle4 {
+    width: 12vw;
+    height: 12vw;
+    max-width: 165px;
+    max-height: 165px;
+    min-width: 80px;
+    min-height: 80px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    background-position: center;
+    background-size: cover;
+    background-image: url("kasia-derenda-HpKkTi0ThKM-unsplash.jpg");
+}
+.circle5 {
+    width: 12vw;
+    height: 12vw;
+    max-width: 165px;
+    max-height: 165px;
+    min-width: 80px;
+    min-height: 80px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    background-position: center;
+    background-size: cover;
+    background-image: url("pexels-saveurssecretes-5560763.jpg");
+}
 .description {
     color: white;
     font-size: 15px;
@@ -165,17 +224,7 @@ footer {
     word-wrap: break-word;
 }
 
-.circle:nth-child(1) {
-    background-image: url("pexels-quang-nguyen-vinh-222549-6874914.jpg");
-}
 
-.circle:nth-child(2) {
-    background-image: url("pexels-quang-nguyen-vinh-222549-6874914.jpg");
-}
-
-.circle:nth-child(3) {
-    background-image: url("pexels-quang-nguyen-vinh-222549-6874914.jpg");
-}
 
 
 
@@ -198,7 +247,9 @@ td {
     height: 200px; 
     text-align: center;
     vertical-align: middle;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    
 }
 
 .story1 div img {
@@ -477,7 +528,20 @@ footer {
     height: auto;
 
 }
+.menu{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
 
+}
+
+.menu img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
 
 
 
@@ -506,17 +570,3 @@ footer {
     }
 }
 
-.menu{
-    max-width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0;
-
-}
-
-.menu img{
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0;
-}
