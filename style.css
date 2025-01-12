@@ -118,21 +118,7 @@ footer {
     text-align: center;
 }
 
-.farm {
-    background-color: blanchedalmond;
-    height: 600px;
-    font-size: 50px;
-    color: black;
-    text-align: center;
-}  
 
-.preperation{
-    background-color: rgb(155, 211, 189);
-    height: 600px;
-    font-size: 50px;
-    color: black;
-    text-align: center;
-}
 .pics {
     background-color: rgb(117, 171, 149);
     display: flex;
@@ -223,8 +209,57 @@ footer {
     max-width: 165px;
     word-wrap: break-word;
 }
-
-
+.farm {
+    background-color: blanchedalmond;
+    height: auto;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    
+}  
+.farm-container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.farm-words{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.farm-image{
+    max-width: 600px;
+    min-width:250px;
+    flex: 1;
+    height: auto;
+    border-radius: 5px;
+}
+.preperation{
+    background-color: rgb(155, 211, 189);
+    height: auto;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+.farm-description{
+    background-color: rgba(0, 0, 0, 0.652);
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 25px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px;
+    box-sizing: border-box;
+    
+    
+}
 
 
 
@@ -314,6 +349,7 @@ td {
 p{
     color: white;
     font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
 }
 .home{
     height: 800px;
