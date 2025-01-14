@@ -236,7 +236,9 @@ footer {
     flex: 1;
     height: auto;
     border-radius: 5px;
+    
 }
+
 .preperation{
     background-color: rgb(155, 211, 189);
     height: auto;
@@ -376,10 +378,10 @@ p{
 
 .reviews{
     background-color: beige;
-    height: 300px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    
+    padding-bottom: 30px;
     justify-content: flex-start;
 }
 .food{
@@ -424,7 +426,7 @@ p{
     
 }
 .box{
-    height: 150px;
+    height: auto;
     width: 400px;
     border-radius: 5px;
     border: 2px solid black;
@@ -434,6 +436,7 @@ p{
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 50px;
 }
 h3{
     text-align: center;
