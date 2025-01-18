@@ -337,8 +337,12 @@ td {
     
 }
 .sustainability{
-    height: 400px;
+    height: auto;
+    margin-bottom: 100px;
     width: 650px;
+    max-width: 90%;
+    justify-content: center;
+    padding: 30px;
     display:flex;
     align-items: center;
     background-color: rgba(14, 117, 33, 0.686);
@@ -346,8 +350,19 @@ td {
     color: white;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-wrap: wrap;
     
 }
+@media(max-width:768px){
+    .sustainability{
+        width:90%;
+        padding: 20px;
+        font-size: medium;
+        margin-left: 10px ;
+        margin-right: 10px ;
+    }
+}
+
 .parent{
     display: flex;
     flex-wrap: wrap;
