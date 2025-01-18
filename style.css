@@ -35,14 +35,22 @@ h1 {
 
 nav {
     background-color: rgb(2, 96, 47);
-    height: 40px;
+    height: auto;
     display: flex;
     justify-content: space-between;
+
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 20px;
     transition: color 0.3s;
     
+}
+@media(max-width: 768px)
+{
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 nav a:hover{
     color: rgba(255, 255, 255, 0.595);
@@ -60,6 +68,7 @@ main {
     background-color: antiquewhite;
     padding-bottom: 40px;
     margin:0;
+    
     
 }
 
@@ -225,6 +234,18 @@ footer {
     padding: 20px;
     box-sizing: border-box;
 }
+/* Small Screen adaptivity things*/
+@media(max-width: 768px)
+{
+    .farm-container{
+        flex-direction: column;
+
+    }
+    .farm-image{
+        width: 90%;
+    }
+}
+
 .farm-words{
     color: white;
     font-size: 20px;
@@ -354,26 +375,29 @@ p{
     font-family: 'Times New Roman', Times, serif;
 }
 .home{
-    height: 800px;
+    height: auto;
     background-position: center;
     text-align: center;
+    background-color:rgb(95, 163, 114);
     
 }
-.home-image{
-    background-image: url(homeImage.jpg);
+.img-container{
+    /* background-image: url(homeImage.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed;  */
+     /* background-size: cover;
+     background-position: center; */
+     /* height:100%; */
+     justify-content: center;
+     display: flex;
     
-   background-repeat: no-repeat;
-   /* background-attachment: fixed;  */
-    background-size: cover;
-    background-position: center;
-    height:100%;
-    justify-content: center;
-    display: flex;
-    width: 100vw;
-    img{
-        max-height: 100%;
-        max-width: 100%;
-    }
+     width: 100%; 
+     
+}
+.responsive{
+    width: 100%;
+    height:auto;
+    object-fit: cover;
 }
 
 .reviews{
@@ -586,26 +610,6 @@ footer {
 
 
 
-/* Small Screen adaptivity things*/
-@media (max-width: 768px) {
-    .circle {
-        width: 20vw; 
-        height: 20vw;
-    }
 
-    .description {
-        font-size: 0.8rem;
-    }
-}
 
-@media (max-width: 480px) {
-    .circle {
-        width: 25vw;
-        height: 25vw;
-    }
-
-    .description {
-        font-size: 0.7rem;
-    }
-}
 
