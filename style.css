@@ -336,6 +336,7 @@ td {
     display: flex;
     
 }
+
 .sustainability{
     height: auto;
     margin-bottom: 100px;
@@ -348,11 +349,12 @@ td {
     background-color: rgba(14, 117, 33, 0.686);
     border-radius:25px;
     color: white;
-    font-size: large;
+    font-size: 84px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     flex-wrap: wrap;
     
 }
+
 @media(max-width:768px){
     .sustainability{
         width:90%;
@@ -360,6 +362,12 @@ td {
         font-size: medium;
         margin-left: 10px ;
         margin-right: 10px ;
+    }
+    .sustainability h1{
+        font-size: 40px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
     }
 }
 
